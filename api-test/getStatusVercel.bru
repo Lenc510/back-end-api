@@ -1,0 +1,15 @@
+meta {
+  name: getStatusVercel
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://back-end-api-kappa.vercel.app/
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
