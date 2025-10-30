@@ -1,0 +1,20 @@
+meta {
+  name: postQuestoesID
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://spidery-wizard-pj9v9v59rjvr364qj-3000.app.github.dev/questoes
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "enunciado": "Qual é a capital da França?",
+    "disciplina": "Geografia",
+    "tema": "Capitais do mundo",
+    "nivel": 1
+  }
+}

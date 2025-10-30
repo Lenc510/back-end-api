@@ -1,0 +1,21 @@
+meta {
+  name: putQuetoesID
+  type: http
+  seq: 5
+}
+
+put {
+  url: https://spidery-wizard-pj9v9v59rjvr364qj-3000.app.github.dev/questoes/4
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "enunciado": "Qual é a capital da Bélgica?",
+    "disciplina": "Geografia",
+    "tema": "Capitais do mundo",
+    "nivel": 3
+  }
+  
+}
